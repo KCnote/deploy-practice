@@ -4,7 +4,7 @@ project(deploy-project)
 include(CTest)
 enable_testing()
 
-include(CMakeGenLib.cmake)
+include(cmake/CMakeGenLib.cmake)
 
 add_executable(${PROJECT_NAME} main.cpp)
 target_link_libraries(${PROJECT_NAME} PRIVATE structlib)
