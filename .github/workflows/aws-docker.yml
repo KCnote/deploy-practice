@@ -12,7 +12,7 @@ permissions:
 env:
   AWS_REGION: ap-southeast-2
   ECR_REPOSITORY: deploy/docker
-  LAMBDA_FUNCTION_NAME: lambda-git-deploy
+  LAMBDA_FUNCTION_NAME: lambda-git-deploy 
 
 jobs:
   deploy:
