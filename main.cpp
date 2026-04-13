@@ -8,7 +8,6 @@ int main()
 
     std::cout << "Size of str1: " << str1.getSize() << std::endl;
 
-
     std::cin.get();
 
     return 0;
